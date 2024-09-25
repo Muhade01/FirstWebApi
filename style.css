@@ -1,0 +1,46 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+article {
+    width: 50%; 
+}
+
+.article1, .article2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 {
+    background-color: wheat; 
+}
+
+.article1 button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.article2 {
+    background-color: black ; 
+    padding: 20px;
+    text-align: left; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#textDisplay {
+    font-size: 18px;
+    color: white;
+}
